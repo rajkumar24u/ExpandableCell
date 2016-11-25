@@ -22,8 +22,21 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mvx-Gb-ixg">
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YGo-u1-iwB">
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ExpandableCell" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nqE-t3-Tcg">
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="27" id="DZi-UY-jc5"/>
+                                                    <constraint firstAttribute="width" constant="194" id="GkR-5u-uG4"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
                                         <color key="backgroundColor" red="0.18419938390000001" green="0.40078881030000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
+                                            <constraint firstItem="nqE-t3-Tcg" firstAttribute="centerX" secondItem="YGo-u1-iwB" secondAttribute="centerX" id="JdE-iV-edb"/>
+                                            <constraint firstItem="nqE-t3-Tcg" firstAttribute="centerY" secondItem="YGo-u1-iwB" secondAttribute="centerY" constant="10.5" id="h7d-f5-rB6"/>
                                             <constraint firstAttribute="height" constant="64" id="src-XO-sNx"/>
                                         </constraints>
                                     </view>
@@ -34,7 +47,7 @@
                                                 <rect key="frame" x="0.0" y="28" width="375" height="194"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OdE-ag-hhd" id="Itk-it-4Qz">
-                                                    <frame key="frameInset" width="375" height="193.5"/>
+                                                    <frame key="frameInset" width="375" height="193"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ed8-Kn-Nwn">
@@ -64,13 +77,13 @@
                                                             </subviews>
                                                             <color key="backgroundColor" red="0.18419938390000001" green="0.40078881030000002" blue="1" alpha="0.46113006159999997" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
-                                                                <constraint firstItem="LNh-rA-SSm" firstAttribute="leading" secondItem="ed8-Kn-Nwn" secondAttribute="leading" constant="8" id="73J-2J-7uK"/>
-                                                                <constraint firstAttribute="trailing" secondItem="LNh-rA-SSm" secondAttribute="trailing" constant="8" id="7Vc-7s-EVK"/>
-                                                                <constraint firstItem="LNh-rA-SSm" firstAttribute="top" secondItem="DNI-Sx-qC7" secondAttribute="bottom" constant="23" id="FfQ-c3-FVS"/>
+                                                                <constraint firstAttribute="bottom" secondItem="LNh-rA-SSm" secondAttribute="bottom" constant="7.5" id="5HF-Ce-pQc"/>
+                                                                <constraint firstItem="LNh-rA-SSm" firstAttribute="top" secondItem="ed8-Kn-Nwn" secondAttribute="top" constant="72" id="6lW-Ga-geo"/>
                                                                 <constraint firstItem="DNI-Sx-qC7" firstAttribute="leading" secondItem="ed8-Kn-Nwn" secondAttribute="leading" constant="8" id="GPo-7p-8gr"/>
                                                                 <constraint firstItem="DNI-Sx-qC7" firstAttribute="top" secondItem="ed8-Kn-Nwn" secondAttribute="top" constant="8" id="IYH-Zk-Quv"/>
                                                                 <constraint firstAttribute="trailing" secondItem="DNI-Sx-qC7" secondAttribute="trailing" constant="94" id="KYe-7P-J7L"/>
-                                                                <constraint firstAttribute="bottom" secondItem="LNh-rA-SSm" secondAttribute="bottom" constant="7.5" id="LzW-Ug-aHZ"/>
+                                                                <constraint firstAttribute="trailing" secondItem="LNh-rA-SSm" secondAttribute="trailing" constant="8" id="d8m-E0-SKb"/>
+                                                                <constraint firstItem="LNh-rA-SSm" firstAttribute="leading" secondItem="ed8-Kn-Nwn" secondAttribute="leading" constant="8" id="mhn-Si-1uR"/>
                                                                 <constraint firstItem="efD-hc-8PW" firstAttribute="top" secondItem="ed8-Kn-Nwn" secondAttribute="top" constant="8" id="ost-cH-eeH"/>
                                                                 <constraint firstAttribute="trailing" secondItem="efD-hc-8PW" secondAttribute="trailing" constant="8" id="t8D-kt-Aic"/>
                                                             </constraints>

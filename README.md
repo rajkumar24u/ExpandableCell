@@ -1,3 +1,3 @@
-# ExpandableCell![Screenshot](ExpandCell.gif)
+# ExpandableCell   ![Screenshot](ExpandCell.gif)
 Expandable cell according to lable or text size using Swift 3
 

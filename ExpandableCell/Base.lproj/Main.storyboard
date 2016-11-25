@@ -34,7 +34,7 @@
                                                 <rect key="frame" x="0.0" y="28" width="375" height="194"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OdE-ag-hhd" id="Itk-it-4Qz">
-                                                    <frame key="frameInset" width="375" height="193"/>
+                                                    <frame key="frameInset" width="375" height="193.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ed8-Kn-Nwn">
@@ -66,11 +66,11 @@
                                                             <constraints>
                                                                 <constraint firstItem="LNh-rA-SSm" firstAttribute="leading" secondItem="ed8-Kn-Nwn" secondAttribute="leading" constant="8" id="73J-2J-7uK"/>
                                                                 <constraint firstAttribute="trailing" secondItem="LNh-rA-SSm" secondAttribute="trailing" constant="8" id="7Vc-7s-EVK"/>
-                                                                <constraint firstItem="LNh-rA-SSm" firstAttribute="top" secondItem="DNI-Sx-qC7" secondAttribute="bottom" constant="28" id="FfQ-c3-FVS"/>
+                                                                <constraint firstItem="LNh-rA-SSm" firstAttribute="top" secondItem="DNI-Sx-qC7" secondAttribute="bottom" constant="23" id="FfQ-c3-FVS"/>
                                                                 <constraint firstItem="DNI-Sx-qC7" firstAttribute="leading" secondItem="ed8-Kn-Nwn" secondAttribute="leading" constant="8" id="GPo-7p-8gr"/>
                                                                 <constraint firstItem="DNI-Sx-qC7" firstAttribute="top" secondItem="ed8-Kn-Nwn" secondAttribute="top" constant="8" id="IYH-Zk-Quv"/>
                                                                 <constraint firstAttribute="trailing" secondItem="DNI-Sx-qC7" secondAttribute="trailing" constant="94" id="KYe-7P-J7L"/>
-                                                                <constraint firstAttribute="bottom" secondItem="LNh-rA-SSm" secondAttribute="bottom" constant="6" id="LzW-Ug-aHZ"/>
+                                                                <constraint firstAttribute="bottom" secondItem="LNh-rA-SSm" secondAttribute="bottom" constant="7.5" id="LzW-Ug-aHZ"/>
                                                                 <constraint firstItem="efD-hc-8PW" firstAttribute="top" secondItem="ed8-Kn-Nwn" secondAttribute="top" constant="8" id="ost-cH-eeH"/>
                                                                 <constraint firstAttribute="trailing" secondItem="efD-hc-8PW" secondAttribute="trailing" constant="8" id="t8D-kt-Aic"/>
                                                             </constraints>

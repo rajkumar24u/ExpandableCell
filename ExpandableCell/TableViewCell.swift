@@ -13,7 +13,6 @@ class TableViewCell: UITableViewCell {
     @IBOutlet var lblDesc: UILabel?
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
